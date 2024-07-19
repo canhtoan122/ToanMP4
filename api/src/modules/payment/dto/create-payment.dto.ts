@@ -1,4 +1,4 @@
-import { IsBoolean, IsNotEmpty, IsString } from "class-validator";
+import { IsBoolean, IsNotEmpty, IsNumber, IsString } from "class-validator";
 
 export class CreatePaymentDTO{
     @IsString()
@@ -7,21 +7,17 @@ export class CreatePaymentDTO{
 
     @IsString()
     @IsNotEmpty()
-    Password: string;
+    Account: string;
 
     @IsString()
     @IsNotEmpty()
-    UserRole: string;
+    Password: string;
 
     @IsBoolean()
     @IsNotEmpty()
-    isPremeum: boolean;
+    Status: boolean;
 
-    @IsString()
+    @IsNumber()
     @IsNotEmpty()
-    PaymentCard: string;
-
-    @IsString()
-    @IsNotEmpty()
-    UserSettingID: string;
+    PaymentMethodID: number;
 }

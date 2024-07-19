@@ -1,5 +1,7 @@
 export class UpdatePaymentDTO{
-    username: string;
-    email: string;
-    password: string;
+    Code: string;
+    Account: string;
+    Password: string;
+    Status: boolean;
+    PaymentMethodID: number;
 }
