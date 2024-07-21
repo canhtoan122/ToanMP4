@@ -1,0 +1,44 @@
+/* Button styling */
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table styling */
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.users-table th,
+.users-table td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.users-table th {
+    background-color: #f4f4f4;
+}
+
+/* Styling for the Trending column */
+.users-table td:nth-child(4) {
+    text-align: center;
+}
+
+/* Additional padding for the button cells */
+.users-table td:nth-child(5),
+.users-table td:nth-child(6) {
+    text-align: center;
+}

@@ -17,4 +17,8 @@ export class UsersService {
         const users = this.userRepository.login(user);
         return users;
     }
+    getUser(){
+        const users = this.userRepository.getUsers();
+        return users;
+    }
 }

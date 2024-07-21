@@ -1,0 +1,85 @@
+.user-main-content {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #181818;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+header .actions {
+    display: flex;
+    align-items: center;
+}
+
+header .actions button {
+    margin: 0 10px;
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #666; /* Placeholder color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.songs {
+    margin-top: 20px;
+}
+
+.songs h2 {
+    margin-bottom: 10px;
+}
+
+.songs .tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.songs .tabs button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.songs .song-list {
+    margin-top: 20px;
+}
+
+.songs .song-list .song-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}

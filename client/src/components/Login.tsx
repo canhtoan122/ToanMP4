@@ -48,7 +48,7 @@ export default function Login() {
           }
     }
     return (
-        <div>
+        <div className='background'>
             <div className="form-container">
                 <form id="loginForm" className="form">
                     <h2>Login</h2>

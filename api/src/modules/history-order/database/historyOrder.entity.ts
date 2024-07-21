@@ -6,7 +6,7 @@ export class HistoryOrder {
   HistoryOrderID: number;
 
   @Column()
-  DateTime: number;
+  DateTime: Date;
 
   @Column()
   AmountMoney: number;

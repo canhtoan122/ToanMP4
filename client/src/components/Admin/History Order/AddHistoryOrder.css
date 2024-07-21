@@ -1,0 +1,49 @@
+.add-historyOrder-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-historyOrder-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-historyOrder-form label {
+    margin-bottom: 5px;
+}
+
+.add-historyOrder-form input[type="text"],
+.add-historyOrder-form input[type="date"],
+.add-historyOrder-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-historyOrder-form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.add-historyOrder-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-historyOrder-form button:hover {
+    background-color: #0056b3;
+}

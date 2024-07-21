@@ -1,0 +1,48 @@
+.add-song-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-song-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-song-form label {
+    margin-bottom: 5px;
+}
+
+.add-song-form input[type="text"],
+.add-song-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-song-form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.add-song-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-song-form button:hover {
+    background-color: #0056b3;
+}

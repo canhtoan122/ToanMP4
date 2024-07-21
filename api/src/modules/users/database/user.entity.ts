@@ -20,7 +20,4 @@ export class User {
   @Column()
   PaymentCard: string;
 
-  @Column()
-  UserSettingID: number;
-
 }

@@ -50,7 +50,7 @@ export default function SignIn() {
         })
     }
     return (
-        <div>
+        <div className='background'>
             <div className="form-container">
                 <form id="signUpForm" className="form">
                     <h2>Sign Up</h2>

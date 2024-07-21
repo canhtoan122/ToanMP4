@@ -1,0 +1,48 @@
+.add-musician-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-musician-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-musician-form label {
+    margin-bottom: 5px;
+}
+
+.add-musician-form input[type="text"],
+.add-musician-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-musician-form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.add-musician-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-musician-form button:hover {
+    background-color: #0056b3;
+}
